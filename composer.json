@@ -1,0 +1,21 @@
+{
+    "name": "optiwariindia/gsheet",
+    "description": "A library to connect google sheet from web applications.",
+    "type": "library",
+    "version":"1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Om Tiwari",
+            "email": "optiwari.india@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "optiwariindia\\":"src/"
+        }
+    },
+    "require": {
+        "google/apiclient": "^2.10"
+    }
+}
